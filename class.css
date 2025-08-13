@@ -69,12 +69,13 @@
 	cursor: pointer;
 }
 .board-box .image {
-	width: 110px;
-	height: 110px;
+	width: 150px;
+	height: 200px;
 	margin-bottom: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: black;
 }
 .board-box .image img {
 	max-width: 100%;
@@ -99,7 +100,7 @@
 } */
 .board-box:hover {
 	transform: translateY(-6px) scale(1.04);
-	background: #f0e6fa;
+	background: #cd8cdc;
 }
 
 
@@ -255,6 +256,10 @@ nav a:focus{
 	.social a{
 		margin-right: 1.5rem;
 
+	}
+	.quick_links{
+		display: flex;
+		justify-content: center;
 	}
 .footer-bottom {
     text-align: center;
